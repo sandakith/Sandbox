@@ -9,9 +9,14 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class Ex_PriorityQueue_StringLength {
+	
+	/*
+	 * add() comes from Collection Interface. Throws and exception 
+	 * offer() comes from Queue Interface. return false 
+	 */
 
     public static void main(String[] args) {
-        
+ 
         // First define a Comparator Class implementing Comparator  
         Comparator<String> comparator = new StringLengthComparator();
         

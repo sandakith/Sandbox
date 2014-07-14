@@ -19,6 +19,7 @@ public class Ex_PriorityQueueMax_Integer {
         queue.offer(1);
         queue.offer(3);
         queue.offer(2);
+        queue.offer(4);
 
 
         Integer val = null;
