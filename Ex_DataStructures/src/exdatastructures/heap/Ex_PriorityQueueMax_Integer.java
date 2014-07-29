@@ -15,7 +15,7 @@ import java.util.PriorityQueue;
 public class Ex_PriorityQueueMax_Integer {
 
     public static void main(String[] args) {
-        PriorityQueue<Integer> queue = new PriorityQueue<>(10, Collections.reverseOrder());
+        PriorityQueue<Integer> queue = new PriorityQueue<Integer>(10, Collections.reverseOrder());
         queue.offer(1);
         queue.offer(3);
         queue.offer(2);

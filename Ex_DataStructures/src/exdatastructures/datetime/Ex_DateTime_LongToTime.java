@@ -24,9 +24,8 @@ public class Ex_DateTime_LongToTime {
         Date resultdate = new Date(currentTimeLong);
         System.out.println(sdf.format(resultdate));
         
-//    	Long givenTime = new Long(1405433971740);
-//        Date givenDate = new Date(givenTime);
-//        System.out.println(sdf.format(givenDate));
+        Date givenDate = new Date((long)(1405528215));
+        System.out.println(sdf.format(givenDate));
     	
     }
 		

@@ -1,4 +1,7 @@
 *git.sh
+*.idea
+*.iml
+*out
 /ExDataStructures/nbproject/private/
 /ExDataStructures/build/
 /ExDataStructures/dist/

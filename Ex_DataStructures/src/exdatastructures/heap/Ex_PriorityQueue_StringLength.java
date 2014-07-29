@@ -21,7 +21,7 @@ public class Ex_PriorityQueue_StringLength {
         Comparator<String> comparator = new StringLengthComparator();
         
         // Then create a PQ(initial size, comparator)
-        PriorityQueue<String> queue = new PriorityQueue<>(10, comparator);
+        PriorityQueue<String> queue = new PriorityQueue<String>(10, comparator);
         // Populate it 
         queue.add("short one");
         queue.add("very long indeed");
