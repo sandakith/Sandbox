@@ -1,5 +1,5 @@
 ## git sample commands 
-# git clone https://github.com/sandakith/SandBox.git
+# git clone <git repo> 
 # git status
 # git add README.md 
 # git reset HEAD <Folder> 
@@ -14,7 +14,7 @@
 
 
 git config --global user.name "username"
-git config --global user.email "emila""
+git config --global user.email "email""
 
 echo "Updating git settings"
 git config user.name
