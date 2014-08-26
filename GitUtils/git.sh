@@ -1,4 +1,5 @@
-## git sample commands 
+#!/bin/sh
+## git sample commands
 # git clone <git repo> 
 # git status
 # git add README.md 
